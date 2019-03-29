@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ProAgil.API.Data;
-using ProAgil.API.Model;
+using ProAgil.Repository.Data;
+using ProAgil.Domain.Model;
 
-namespace ProAgil.API.Controllers
+namespace ProAgil.Repository.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
